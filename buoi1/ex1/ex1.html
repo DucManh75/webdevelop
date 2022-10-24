@@ -7,7 +7,15 @@
     <title>Profile</title>
 </head>
 <body>
-    
+    <div class="menu">
+        <div class="vertical-menu">
+            <a onclick="goToProfile()">Profile</a>
+            <a onclick="goToExperience()">Experiences</a>
+            <a onclick="goToAbilities()">Abilities</a>
+            <a onclick="goToProject()">Project</a>
+            <a onclick="goToProject()">Contact</a>
+        </div>
+    </div>
     
     <h1 class="profile">Profile</h1>
     <p class="student">I'm a student</p>
@@ -195,6 +203,23 @@
             </div>
           </div>
         
-
+<script>
+    function goToProfile(){
+    const element = document.getElementById("Profile");
+    element.scrollIntoView();
+}
+function goToExperience(){
+    const element = document.getElementById("Experience");
+    element.scrollIntoView();
+}
+function goToAbilities(){
+    const element = document.getElementById("Abilities");
+    element.scrollIntoView();
+}
+function goToProject(){
+    const element = document.getElementById("skill_footer");
+    element.scrollIntoView();
+}
+</script>
 
 </body></html>

@@ -1,7 +1,29 @@
 body {
     margin: 0 25%;
 }
+ .vertical-menu a {
+   background-color: black;
+   color: white  ;
+   display: block;
+   padding: 12px;
+   text-decoration: none;
+ }
+ 
+ .vertical-menu a:hover {
+   background-color:#00bfbf;
+ }
+ 
 
+ .title-header-color{
+    color: #00bfbf;
+    text-align: center;
+    font-size: 32px;
+ }
+
+.menu{
+    position: fixed;
+    right: 0;
+ }
 .profile {
     text-align: center;
     color: #eeac1e;
@@ -104,3 +126,19 @@ hr {
     text-align: center;
     margin: 20px;
 }
+
+button {
+    display: block;
+    margin: 16px auto;
+    font-size: 18px;
+    padding: 6px;
+    color: #fff;
+    background-color:#22a3a0;
+    border: none;
+    border-radius: 5px;
+ }
+ 
+ button:hover {
+    cursor: pointer;
+    opacity: .8;
+ }
